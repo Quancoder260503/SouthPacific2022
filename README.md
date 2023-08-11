@@ -41,7 +41,7 @@ To speed up, we now going from both sides of the intervals.
 Time Complexity: O(NLogN) 
 
 Problem F: (Convex Hull, Ternary Search)
-Let f(xt) = |P1 - P2| where P1, P2 is two polygons created after the cut by line x = xt
+Let f(xt) = |P1 - P2| where P1, P2 is two polygons created after the cut by line x = xt.
 We can easily observed that f(x) is a concave function.
 Thus we only need to do ternary search to find the aprroximate value of xt
 Now we are going to compute the value of P1, P2 for a fixed xt, 
