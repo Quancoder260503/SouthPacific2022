@@ -77,7 +77,7 @@ Time complexity: O(N)
 
 Problem L: (Tree Dp, Game)
 First, let's fixed the starting point.
-Observed that for a node to losing state only when all of its childrens always lead to the winning state (The leaf is 
+Observed that for a node in the losing state only when all of its childrens in the winning state (The leaf is 
 a winning state since people can not make a move are now able to call ice cream). 
 Thus we can easily compute that for fixed node 1 using a single DFS call, 
 Now by doing re - root Dp, we are able to compute it for all nodes in the tree and get the answer.
