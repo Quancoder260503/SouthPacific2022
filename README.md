@@ -54,7 +54,7 @@ Time complexity: O(NLogN)
 
 Problem G: (Knapsack)
 This is just Knapsack problems 
-Time Complexity : O(NK)
+Time Complexity : O(N * K)
 
 Problem H: (Trivial) 
 Just do what the problem describe 
