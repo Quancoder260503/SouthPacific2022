@@ -31,7 +31,7 @@ numbers from (n - k + 1) ( n - k + 2) ... n && (k!). Knowing all these values, w
 until the number large enough. 
 Time Complexity : O(N * (M + K) * log(MAX)) where MAX is the maximum values appears in the set 
 
-Problem E: (Efficient City)
+Problem E: (Divide and Conquer)
 Note that for the leftmost and rightmost house to be connected, there must be some cities between (let that be k) 
 such that L[k] <= leftmost && rightmost <= house. Thus we can solve the subproblems for [leftmost, k - 1) && (k + 1, rightmost]
 by knowing that houses from two intervals [leftmost, k] & [k, rightmost] can be connected to each other. 
@@ -40,7 +40,7 @@ which is pretty similar to Quicksort which ends up in O(N^2) worst case.
 To speed up, we now going from both sides of the intervals. 
 Time Complexity: O(NLogN) 
 
-Problem F: (Floating Point)
+Problem F: (Convex Hull, Ternary Search)
 Let f(xt) = |P1 - P2| where P1, P2 is two polygons created after the cut by line x = xt
 We can easily observed that f(x) is a concave function.
 Thus we only need to do ternary search to find the aprroximate value of xt
