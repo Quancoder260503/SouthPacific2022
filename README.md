@@ -37,7 +37,7 @@ such that L[k] <= leftmost && rightmost <= house. Thus we can solve the subprobl
 by knowing that houses from two intervals [leftmost, k] & [k, rightmost] can be connected to each other. 
 Thus we would end up with some algorithms (going from leftmost to rightmost and check answer) 
 which is pretty similar to Quicksort which ends up in O(N^2) worst case.
-To speed up, we know going from both sides of the intervals. 
+To speed up, we now going from both sides of the intervals. 
 Time Complexity: O(NLogN) 
 
 Problem F: (Floating Point)
