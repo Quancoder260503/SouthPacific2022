@@ -2,7 +2,7 @@
 This is the editorial for ICPC divisonal last year (2022) (My version) 
 
 Problem A : (Trivial)
-Let A[i] be the boolean value for the ith column
+Let A[i] be the boolean value for the ith column.
 Thus A[i] = 1 when column ith column has the same characters 
 Hence, we know only need to find the longest substring of 1.
 Time Complexity O(M * N)
@@ -12,7 +12,7 @@ Observation, after each loops, the number of inversions of each element
 is going to reduce by 1 (as the larger element is shifting towards the end). 
 Thus the number of pass is going to be the maximum number of inversions of
 the elements.
-Let L[k] = number of elements with k inversions 
+Let L[k] = number of elements with k inversions.
 Thus for round kth, the answer is L[k] + L[k + 1] + L[k + 2] + ... 
 We can compute the number of inversions by compressing the value and store it 
 in fenwick tree. 
